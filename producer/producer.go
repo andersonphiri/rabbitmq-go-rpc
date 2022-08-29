@@ -9,8 +9,8 @@ import (
 	"sync"
 
 	amqp "github.com/rabbitmq/amqp091-go"
-	"gitlab.com/chitataunga/rabbit-mq/remote-proc-calls/common"
-	"gitlab.com/chitataunga/rabbit-mq/remote-proc-calls/models"
+	"github.com/andersonphiri/rabbit-mq/remote-proc-calls/common"
+	"github.com/andersonphiri/rabbit-mq/remote-proc-calls/models"
 )
 func failOnError(err error, msg string) {
 	if err != nil {

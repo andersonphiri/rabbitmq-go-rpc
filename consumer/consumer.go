@@ -9,9 +9,9 @@ import (
 	"math/rand"
 
 	amqp "github.com/rabbitmq/amqp091-go"
-	"gitlab.com/chitataunga/rabbit-mq/remote-proc-calls/common"
-	cm "gitlab.com/chitataunga/rabbit-mq/remote-proc-calls/common"
-	"gitlab.com/chitataunga/rabbit-mq/remote-proc-calls/models"
+	"github.com/andersonphiri/rabbit-mq/remote-proc-calls/common"
+	cm "github.com/andersonphiri/rabbit-mq/remote-proc-calls/common"
+	"github.com/andersonphiri/rabbit-mq/remote-proc-calls/models"
 )
 
 const (
