@@ -1,4 +1,4 @@
-module gitlab.com/chitataunga/rabbit-mq/remote-proc-calls/common
+module github.com/andersonphiri/rabbit-mq/remote-proc-calls/common
 
 go 1.18
 
